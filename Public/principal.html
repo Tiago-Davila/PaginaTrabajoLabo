@@ -3,45 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="principal.css">
-    <title>SneakCity</title>
+    <title></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">SneakCity</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Features</a>
-              <a class="nav-link" href="#">Pricing</a>
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+  <header>
+  <nav class="navbar fixed-top  navbar-expand-lg navbar-light" data-bs-theme="white" >
+    <div class="container-fluid">
+      <a class="textoNavbar navbar-brand " href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <a class="textoNavbar nav-link active "  aria-current="page" href="#">Home</a>
+          <a class="textoNavbar nav-link textoNavbar" href="#">Features</a>
+          <a class="textoNavbar nav-link textoNavbar" href="#">Pricing</a>
+          
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<section id="hero"  class="position-relative text-center">
+   <img src="imagenes/imagenHeroBlancoNegro.jpg" alt="" id="imgHero" class="img-fluid">
+    <div class="textoHero  position-absolute top-50 start-50 translate-middle text-white" >
+      <h1 class="tituloHero">Bienvenido a nuestro sitio web</h1>
+      <p class="parrafoHero">Explora nuestros servicios y productos</p>
+      <a href="#" class="btn btn-primary">Comenzar</a> 
+    </section>
+    <section id="servicios">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <div class="card carta" style="width: 18rem;">
+              <img src="imagenes/imgCard1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+              </div>
             </div>
           </div>
-        </div>
-      </nav>
-    </header>
-    <section id="carrusl">
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="imagenes/descarga.jpeg" class="d-block w-100" alt="...">
+          <div class="col">
+            <div class="card carta" style="width: 18rem;">
+              <img src="imagenes/imgCard2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+              </div>
+            </div>
           </div>
-          <div class="carousel-item">
-            <img src="imagenes/descarga.jpeg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="imagenes/descarga.jpeg" class="d-block w-100" alt="...">
+          <div class="col">
+            <div class="card text-bg-dark carta" style="width: 18rem;">
+              <img src="imagenes/imgCard3.jpg" class="card-img-top imgCard" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
-  
 
 </body>
 </html>
+<!--
+<div id="carrousel">
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="descarga.jpeg" class="d-block w-100" alt="...">
+        
+      </div>
+      <div class="carousel-item">
+        <img src="descarga.jpeg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="descarga.jpeg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+  </div>
+</div>-->
