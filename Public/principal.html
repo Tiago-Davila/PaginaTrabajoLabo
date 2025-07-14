@@ -11,15 +11,18 @@
   <header>
   <nav class="navbar fixed-top  navbar-expand-lg navbar-light">
     <div class="container-fluid">
-      <a class="textoNavbar navbar-brand " href="#">Navbar</a>
+      <a class="textoNavbar navbar-brand " href="#">KONAS.</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ms-auto">
           <a class="textoNavbar nav-link active "  aria-current="page" href="#">Home</a>
-          <a class="textoNavbar nav-link textoNavbar" href="#">Features</a>
-          <a class="textoNavbar nav-link textoNavbar" href="#">Pricing</a>
+          <a class="textoNavbar nav-link textoNavbar" href="#productos">Productos</a>
+          <a class="textoNavbar nav-link textoNavbar" href="#servicios">Servicios</a>
+          <a class="textoNavbar nav-link textoNavbar" href="#sobreNosotros">Sobre Nosotros</a>
+          <a class="textoNavbar nav-link textoNavbar" href="#form">Form</a>
+          <a class="textoNavbar nav-link textoNavbar" href="#seccionFooter">Contacto</a>
           
         </div>
       </div>
@@ -31,7 +34,7 @@
     <div class="textoHero  position-absolute top-50 start-50 translate-middle text-white" >
       <h1 class="tituloHero">Bienvenido a nuestro sitio web</h1>
       <p class="parrafoHero">Explora nuestros servicios y productos</p>
-      <a href="#" class="btn btn-primary">Comenzar</a> 
+      <a href="#productos" class="btn btn-primary">Comenzar</a> 
     </section>
     <section id="servicios">
       <div id="textoServicios"><h1>Servicios</h1></div>
@@ -164,8 +167,58 @@
         </div>
       </div>
     </section>
-    <section id="form"></section>
-    <footer></footer>
+    <section id="form" class="bg-dark text-white py-5">
+      <div class="container text-center">
+        <h2 class="fw-bold text-uppercase">Mantente Sintonizado</h2>
+        <p class="text-secondary">
+          Suscribete para recibir todas las notificaciones y nuevos eventos. 
+        </p>
+    
+        <div class="form-check d-flex justify-content-center mb-3">
+          <input class="form-check-input me-2" type="checkbox" value="" id="privacyCheck">
+          <label class="form-check-label text-secondary" for="privacyCheck">
+            Acepto las politicas de privacidad           </label>
+        </div>
+    
+        <form class="row justify-content-center g-3">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <button type="submit" class="btn btn-warning text-uppercase fw-bold rounded-pill px-4 py-2">
+              Suscribirse
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer id="seccionFooter">
+      <div id="secctituloForm">
+        <h1 id="tituloForm">KONAS</h1>
+      </div>
+      <div class="footer-container">
+        <div class="footer-contact">
+          <h5 class="footer-title">CONTACT</h5>
+          <p>konas@gmail.com</p>
+          <hr class="footer-line">
+          <p>address line one</p>
+          <p>address line two</p>
+        </div>
+        <div class="footer-contact">
+          <h5 class="footer-title">Redes Sociales</h5>
+          <p>instagram: konas_</p>
+          <hr class="footer-line">
+          <p>instagram: konas_</p>
+          <p>instagram: konas_</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Copyright © KONAS 2025. All right reserved.</p>
+      </div>
+    </footer>
 
 </body>
 </html>
