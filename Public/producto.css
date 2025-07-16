@@ -56,7 +56,10 @@ body{
     width: 100%;
     height: 30%;
 }
-
+#imagenLogo{
+  width: 10%;
+  height: 20%;
+}
 #textoServicios{
     text-align: center;
     margin-top: 20px;

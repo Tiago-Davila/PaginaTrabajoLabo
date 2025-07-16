@@ -10,6 +10,10 @@ body{
 #Productos{
   margin-top: 5%;
 }
+#imagenLogo{
+  width: 10%;
+  height: 20%;
+}
 .navbar{
     background-color: rgb(255, 255, 255);
 }
