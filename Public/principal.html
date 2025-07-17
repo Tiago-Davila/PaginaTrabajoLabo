@@ -36,6 +36,7 @@
       <h1 class="tituloHero animar anim1">Bienvenido a nuestro sitio web</h1>
       <p class="parrafoHero animar anim2">Explora nuestros servicios y productos</p>
       <a href="#" class="btn btn-primary animar anim3">Comenzar</a> 
+    </div>
     </section>
     <section id="servicios">
       <div id="textoServicios"><h1 class="textos">Servicios</h1></div>
@@ -175,10 +176,10 @@
             Acepto las politicas de privacidad 
           </label>
         </div>
-        <form class="row justify-content-center g-3">
+        <form class="row justify-content-center g-3" action="http://localhost:3000/form" method="POST">
           <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Dirección Mail</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
             <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.
             </div>
           </div>
